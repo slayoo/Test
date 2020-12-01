@@ -15,4 +15,4 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - run: g++ -o hello hello.cpp
-    - run: PATH=$PATH:. hello 100
+    - run: ./hello 100
