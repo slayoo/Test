@@ -9,5 +9,6 @@ jobs:
     runs-on: ${{ matrix.platform }}
     
     steps:
+    - uses: actions/checkout
     - run: g++ hello.cpp
     - run: ./a.out
